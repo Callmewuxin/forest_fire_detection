@@ -5,7 +5,7 @@
 1. 启动photo_process.py：开启Flask服务器，调用模型，准备接图片
 2. 在页面中选择本地图片，获得预测结果
 ## 模型结果
-![accuracy&loss](/model_result/model_result.png)
+![accuracy&loss](https://github.com/Callmewuxin/forest_fire_detection/raw/master/model_result/model_result.PNG)
 ## 注意事项
 1. 在flask框架中进行预测 需要将预测语句放在with graph.as_default()中，否则会报错
 2. 加载模型语句不要放在app启动语句后，速度会很慢
